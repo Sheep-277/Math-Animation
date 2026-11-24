@@ -1,0 +1,26 @@
+{
+  "name": "math-animation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jsxgraph": "^1.14.3",
+    "katex": "^0.16.22",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^3.1.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
