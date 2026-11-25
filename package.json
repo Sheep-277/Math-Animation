@@ -1,20 +1,23 @@
 {
-  "name": "math-animation",
+  "name": "mathvision",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/rotation.test.mjs"
   },
   "dependencies": {
     "jsxgraph": "^1.14.3",
     "katex": "^0.16.22",
+    "three": "^0.187.0",
     "vue": "^3.5.0"
   },
   "devDependencies": {
     "@types/katex": "^0.16.7",
+    "@types/three": "^0.187.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "typescript": "~5.9.3",
     "vite": "^7.0.0",
